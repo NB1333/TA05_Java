@@ -176,7 +176,7 @@ public class Main {
             heap.sort(thirdArray);
             endTime = System.currentTimeMillis();
             System.out.println(thirdArray.length + " elements was sorted by Heap Sort in " 
-                            + (endTime - startTime) + "ms");
+                            + (endTime - startTime) + ms);
             heap.printResult();
 
             //Heap Sort for 1M elements
